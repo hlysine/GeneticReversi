@@ -135,7 +135,7 @@ public class Main {
         if (population.done()) {
             population.calculateFitness();
             population.naturalSelection();
-            if (stopForFileSave || (population.gen % saveFrequency == 0 && population.gen > 0)) {
+            if (stopForFileSave || (population.gen % saveFrequency == 0 && population.gen > 1)) {
                 fileProgress = 0;
                 System.out.println("Start file saving");
                 for (int i = 0; i < population.players.length; i++) {

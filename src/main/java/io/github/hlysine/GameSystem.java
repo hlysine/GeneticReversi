@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static io.github.hlysine.Helper.padZero;
 import static io.github.hlysine.Helper.random;
 
 public class GameSystem {
