@@ -32,7 +32,7 @@ public class Main {
     public static final String populationStatsFile = "populationStats.csv";
     public static int boardSize = 8;
     public static int saveFrequency = 15;
-    public static int printFrequency = 1;
+    public static int printFrequency = 10;
     public static int concurrentMatches = Runtime.getRuntime().availableProcessors() * 2;
     public static int populationSize = 300;
     public static int graphGroup = 100;
